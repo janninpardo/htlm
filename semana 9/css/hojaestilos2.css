@@ -1,7 +1,34 @@
-body {
-    font-family: 'Titillium Web', sans-serif;
-    }
+@font-face {
+    font-family: moms ;
+    src: url(../fonts/moms_typewriter/Mom«t___.ttf);
+}
 
+:root{
+    --fondo:black;
+    --degrad:linear-gradient(90deg,black,red);
+    --font:black;
+}
+
+body {
+    font-family: moms;
+    background-color: var(--fondo);
+    background-image: url(../imagenes/cool-background.png);
+    color: var(--font);
+    }
+    .neon {
+        color: #fff;
+        margin-top: 30%;
+        text-shadow:
+            0 0 5px rgba(0,178,255,1),
+            0 0 10px rgba(0,178,255,1),
+            0 0 20px rgba(0,178,255,1),
+            0 0 40px rgba(38,104,127,1),
+            0 0 80px rgba(38,104,127,1),
+            0 0 90px rgba(38,104,127,1),
+            0 0 100px rgba(38,104,127,1),
+            0 0 140px rgba(38,104,127,1),
+            0 0 180px rgba(38,104,127,1);
+    }
     .navbar-brand {
     font-size: 20px;
     color: #000;
